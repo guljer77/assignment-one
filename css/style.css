@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: 'Work Sans', sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 .container{
     width: 1050px;
     margin: 0 auto;
@@ -27,7 +30,7 @@ header{
 .logo-text a{
     text-decoration: none;
     font-size: 25px;
-    color: #005FAC;
+    color:#005FAC;
     margin-left: -22px;
 }
 .nav-section ul{
@@ -132,7 +135,7 @@ header{
     color: #737272;
 }
 .call-to-action{
-    background-image: url(../images/watch.png);
+    background:linear-gradient(90deg, #005FAC 0%,rgba(0, 95, 172, 0) 100%), url(../images/watch.png) !important;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
