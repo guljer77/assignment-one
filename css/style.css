@@ -8,6 +8,44 @@
     width: 1050px;
     margin: 0 auto;
 }
+/* ------------------header-css--------------- */
+header{
+    background-image: linear-gradient(to right top, #f8f5f7, #ece9ec, #dfdde1, #d2d1d6, #c5c6cb, #c0c5ce, #b8c4d1, #afc4d3, #a5cfe1, #98dbea, #8ce7ee, #84f2eb);
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-section{
+    display: flex;
+    align-items: center;
+}
+.logo-image img{
+    width: 120px;
+}
+.logo-text a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #005FAC;
+    margin-left: -22px;
+}
+.nav-section ul{
+    display: flex;
+    list-style: none;
+}
+.nav-section ul li{
+    padding-left: 30px;
+}
+.nav-section ul li:first-child{
+    padding-left: 0;
+}
+.nav-section ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #005FAC;
+}
 /* -----------------banner-section-css----------- */
 .banner-section{
     background: url(../images/banner/banner3.png);
